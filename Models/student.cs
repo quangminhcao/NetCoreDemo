@@ -1,6 +1,6 @@
 namespace NetCoreDemo.Models
 {
     public class Student{
-        public string Student { get; set; }
+        public string StudentID { get; set; }
     }
 }
