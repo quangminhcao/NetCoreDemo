@@ -1,0 +1,8 @@
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.csproj.AssemblyReference.cache
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.AssemblyInfoInputs.cache
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.AssemblyInfo.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.csproj.CoreCompileInputs.cache
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.MvcApplicationPartsAssemblyInfo.cache
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.RazorAssemblyInfo.cache
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\NetCoreDemo.RazorAssemblyInfo.cs
