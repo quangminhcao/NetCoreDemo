@@ -2,24 +2,20 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetCoreDemo.Data;
-using NetCoreDemo.Models;
-
 namespace NetCoreDemo.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
-    [Migration("20211103090656_Create_table_Movie")]
-    partial class Create_table_Movie
+    partial class MvcMovieContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.11");
 
-            modelBuilder.Entity("DemoNetCore.Models.Movie", b =>
+            modelBuilder.Entity("NetCoreDemo.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

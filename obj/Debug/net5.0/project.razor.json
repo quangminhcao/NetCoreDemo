@@ -15677,6 +15677,11 @@
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HelloWorld\\Index.cshtml",
       "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

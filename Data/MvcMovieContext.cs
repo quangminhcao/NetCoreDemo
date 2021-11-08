@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NetCoreDemo.Models;
-
+namespace NetCoreDemo.Data{
     public class MvcMovieContext : DbContext
     {
         public MvcMovieContext (DbContextOptions<MvcMovieContext> options)
@@ -14,3 +14,5 @@ using NetCoreDemo.Models;
 
         public DbSet<NetCoreDemo.Models.Movie> Movie { get; set; }
     }
+
+}
