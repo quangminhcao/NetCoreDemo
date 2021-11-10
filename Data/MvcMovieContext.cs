@@ -13,6 +13,14 @@ namespace NetCoreDemo.Data{
         }
 
         public DbSet<NetCoreDemo.Models.Movie> Movie { get; set; }
+
+        public DbSet<NetCoreDemo.Models.Employee> Employee { get; set; }
+
+        public DbSet<NetCoreDemo.Models.Person> Person { get; set; }
+
+        public DbSet<NetCoreDemo.Models.Product> Product { get; set; }
+
+        public DbSet<NetCoreDemo.Models.Student> Student { get; set; }
     }
 
 }
