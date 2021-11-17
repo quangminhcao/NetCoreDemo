@@ -26,7 +26,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Student/Details/5
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -34,7 +34,7 @@ namespace NetCoreDemo.Controllers
             }
 
             var student = await _context.Student
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+                .FirstOrDefaultAsync(m => m.PersonId == id);
             if (student == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace NetCoreDemo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("StudentID,StudentName,Address")] Student student)
+        public async Task<IActionResult> Create([Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName")] Student student)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Student/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -86,9 +86,9 @@ namespace NetCoreDemo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("StudentID,StudentName,Address")] Student student)
+        public async Task<IActionResult> Edit(int id, [Bind("Universisty,Address,PhoneNumber,PersonId,PersonCode,FullName")] Student student)
         {
-            if (id != student.StudentID)
+            if (id != student.PersonId)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace NetCoreDemo.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!StudentExists(student.StudentID))
+                    if (!StudentExists(student.PersonId))
                     {
                         return NotFound();
                     }
@@ -117,7 +117,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Student/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
@@ -125,7 +125,7 @@ namespace NetCoreDemo.Controllers
             }
 
             var student = await _context.Student
-                .FirstOrDefaultAsync(m => m.StudentID == id);
+                .FirstOrDefaultAsync(m => m.PersonId == id);
             if (student == null)
             {
                 return NotFound();
@@ -137,7 +137,7 @@ namespace NetCoreDemo.Controllers
         // POST: Student/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var student = await _context.Student.FindAsync(id);
             _context.Student.Remove(student);
@@ -145,9 +145,9 @@ namespace NetCoreDemo.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool StudentExists(string id)
+        private bool StudentExists(int id)
         {
-            return _context.Student.Any(e => e.StudentID == id);
+            return _context.Student.Any(e => e.PersonId == id);
         }
     }
 }

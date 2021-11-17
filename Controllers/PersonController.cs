@@ -26,7 +26,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Person/Details/5
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
@@ -34,7 +34,7 @@ namespace NetCoreDemo.Controllers
             }
 
             var person = await _context.Person
-                .FirstOrDefaultAsync(m => m.PersonID == id);
+                .FirstOrDefaultAsync(m => m.PersonId == id);
             if (person == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace NetCoreDemo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonID,PersonName")] Person person)
+        public async Task<IActionResult> Create([Bind("PersonId,PersonCode,FullName")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Person/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -86,9 +86,9 @@ namespace NetCoreDemo.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonID,PersonName")] Person person)
+        public async Task<IActionResult> Edit(int id, [Bind("PersonId,PersonCode,FullName")] Person person)
         {
-            if (id != person.PersonID)
+            if (id != person.PersonId)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace NetCoreDemo.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PersonExists(person.PersonID))
+                    if (!PersonExists(person.PersonId))
                     {
                         return NotFound();
                     }
@@ -117,7 +117,7 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Person/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
@@ -125,7 +125,7 @@ namespace NetCoreDemo.Controllers
             }
 
             var person = await _context.Person
-                .FirstOrDefaultAsync(m => m.PersonID == id);
+                .FirstOrDefaultAsync(m => m.PersonId == id);
             if (person == null)
             {
                 return NotFound();
@@ -137,7 +137,7 @@ namespace NetCoreDemo.Controllers
         // POST: Person/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var person = await _context.Person.FindAsync(id);
             _context.Person.Remove(person);
@@ -145,9 +145,9 @@ namespace NetCoreDemo.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PersonExists(string id)
+        private bool PersonExists(int id)
         {
-            return _context.Person.Any(e => e.PersonID == id);
+            return _context.Person.Any(e => e.PersonId == id);
         }
     }
 }

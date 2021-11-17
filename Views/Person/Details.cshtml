@@ -11,14 +11,20 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PersonName)
+            @Html.DisplayNameFor(model => model.PersonCode)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PersonName)
+            @Html.DisplayFor(model => model.PersonCode)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FullName)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.PersonID">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model.PersonId">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

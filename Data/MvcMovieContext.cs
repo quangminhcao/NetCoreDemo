@@ -12,15 +12,20 @@ namespace NetCoreDemo.Data{
         {
         }
 
-        public DbSet<NetCoreDemo.Models.Movie> Movie { get; set; }
+        public DbSet<Movie> Movie { get; set; }
 
         public DbSet<NetCoreDemo.Models.Employee> Employee { get; set; }
 
-        public DbSet<NetCoreDemo.Models.Person> Person { get; set; }
-
         public DbSet<NetCoreDemo.Models.Product> Product { get; set; }
 
-        public DbSet<NetCoreDemo.Models.Student> Student { get; set; }
+        public DbSet<Student> Student { get; set; }
+        
+        public DbSet<Person> Person { get; set; }
+        
+        public DbSet<HoaDon> HoaDon { get; set; }
+        
+        public DbSet<KhachHang> KhachHang { get; set; }
+
     }
 
 }
