@@ -186,11 +186,6 @@ E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Student\Delete.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Student\Details.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Student\Edit.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Student\Index.cshtml.g.cs
-E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
-E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Delete.cshtml.g.cs
-E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
-E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
-E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Privacy.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\HoaDon\Create.cshtml.g.cs
@@ -218,3 +213,13 @@ E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Delete.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Details.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Edit.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\SinhVien\Create.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\SinhVien\Delete.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\SinhVien\Details.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\SinhVien\Edit.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\SinhVien\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Delete.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
