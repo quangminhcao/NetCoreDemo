@@ -191,6 +191,8 @@ E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Delete.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Shared\Privacy.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\HoaDon\Create.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\HoaDon\Delete.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\HoaDon\Details.cshtml.g.cs
@@ -201,3 +203,18 @@ E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\KhachHang\Delete.cshtml.g.c
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\KhachHang\Details.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\KhachHang\Edit.cshtml.g.cs
 E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\KhachHang\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\NhanVien\Create.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\NhanVien\Delete.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\NhanVien\Details.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\NhanVien\Edit.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\NhanVien\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\LuongBong\Create.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\LuongBong\Delete.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\LuongBong\Details.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\LuongBong\Edit.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\LuongBong\Index.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Create.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Delete.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Details.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Edit.cshtml.g.cs
+E:\Net Core\NetCoreDemo\obj\Debug\net5.0\Razor\Views\Teacher\Index.cshtml.g.cs

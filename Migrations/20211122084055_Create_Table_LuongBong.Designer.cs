@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetCoreDemo.Data;
 
 namespace NetCoreDemo.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
-    partial class MvcMovieContextModelSnapshot : ModelSnapshot
+    [Migration("20211122084055_Create_Table_LuongBong")]
+    partial class Create_Table_LuongBong
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,22 +169,6 @@ namespace NetCoreDemo.Migrations
                     b.ToTable("Student");
                 });
 
-            modelBuilder.Entity("NetCoreDemo.Models.Teacher", b =>
-                {
-                    b.HasBaseType("NetCoreDemo.Models.Person");
-
-                    b.Property<string>("Address")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Universisty")
-                        .HasColumnType("TEXT");
-
-                    b.ToTable("Teacher");
-                });
-
             modelBuilder.Entity("NetCoreDemo.Models.HoaDon", b =>
                 {
                     b.HasOne("NetCoreDemo.Models.KhachHang", "khachHangs")
@@ -210,15 +196,6 @@ namespace NetCoreDemo.Migrations
                     b.HasOne("NetCoreDemo.Models.Person", null)
                         .WithOne()
                         .HasForeignKey("NetCoreDemo.Models.Student", "PersonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("NetCoreDemo.Models.Teacher", b =>
-                {
-                    b.HasOne("NetCoreDemo.Models.Person", null)
-                        .WithOne()
-                        .HasForeignKey("NetCoreDemo.Models.Teacher", "PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

@@ -15619,8 +15619,18 @@
   "RootNamespace": "NetCoreDemo",
   "Documents": [
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HoaDon\\Delete.cshtml",
+      "TargetPath": "Views\\HoaDon\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\KhachHang\\Index.cshtml",
+      "TargetPath": "Views\\KhachHang\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15644,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\KhachHang\\Details.cshtml",
+      "TargetPath": "Views\\KhachHang\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Person\\Index.cshtml",
       "TargetPath": "Views\\Person\\Index.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15671,11 @@
     {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Student\\Create.cshtml",
       "TargetPath": "Views\\Student\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\KhachHang\\Edit.cshtml",
+      "TargetPath": "Views\\KhachHang\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15714,6 +15734,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Shared\\Privacy.cshtml",
+      "TargetPath": "Views\\Shared\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Student\\Details.cshtml",
       "TargetPath": "Views\\Student\\Details.cshtml",
       "FileKind": "mvc"
@@ -15734,6 +15759,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15741,6 +15771,16 @@
     {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\KhachHang\\Delete.cshtml",
+      "TargetPath": "Views\\KhachHang\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\KhachHang\\Create.cshtml",
+      "TargetPath": "Views\\KhachHang\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15754,13 +15794,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HoaDon\\Index.cshtml",
+      "TargetPath": "Views\\HoaDon\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Employee\\Create.cshtml",
       "TargetPath": "Views\\Employee\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HoaDon\\Details.cshtml",
+      "TargetPath": "Views\\HoaDon\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HoaDon\\Edit.cshtml",
+      "TargetPath": "Views\\HoaDon\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\Person\\Edit.cshtml",
       "TargetPath": "Views\\Person\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\Net Core\\NetCoreDemo\\Views\\HoaDon\\Create.cshtml",
+      "TargetPath": "Views\\HoaDon\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

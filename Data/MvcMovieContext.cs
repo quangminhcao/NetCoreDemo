@@ -25,6 +25,12 @@ namespace NetCoreDemo.Data{
         public DbSet<HoaDon> HoaDon { get; set; }
         
         public DbSet<KhachHang> KhachHang { get; set; }
+        
+        public DbSet<NetCoreDemo.Models.NhanVien> NhanVien { get; set; }
+        
+        public DbSet<NetCoreDemo.Models.LuongBong> LuongBong { get; set; }
+        
+        public DbSet<NetCoreDemo.Models.Teacher> Teacher { get; set; }
 
     }
 
