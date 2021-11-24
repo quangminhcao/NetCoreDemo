@@ -20,9 +20,17 @@ namespace NetCoreDemo.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string SearchString)
         {
-            return View(await _context.Movie.ToListAsync());
+            //select danh sach cac ban ghi movie trong database
+            var movieslist = from m in _context.Movie
+                 select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                movieslist = movieslist.Where(m => m.Title.Contains(SearchString));
+            }
+            //tra ve list movie voi dieu kien Title co chua tu khoa tim kiem (bat dong bo)
+            return View(await movieslist.ToListAsync());
         }
 
         // GET: Movies/Details/5
